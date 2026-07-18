@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="허진녕의 Profile과 Academic Profile">
+    <title>나의 소개 | SKALA-FRONT</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script/authGuard.js"></script>
+</head>
+<body>
+<div class="container app-shell">
+    <aside class="workspace-sidebar">
+        <div class="workspace-brand">
+            <div class="workspace-logo" aria-hidden="true">S</div>
+            <div>
+                <strong>SKALA-FRONT</strong>
+                <small>HTML · CSS · JavaScript</small>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <p class="sidebar-title">과제 채널</p>
+            <nav aria-label="과제 페이지">
+                <ul>
+                    <li><a href="../index.html"><span class="channel-mark">⌂</span>메인 Hub</a></li>
+                    <li><a href="myProfile.html" aria-current="page"><span class="channel-mark">#</span>나의 소개</a></li>
+                    <li><a href="myClass.html"><span class="channel-mark">#</span>강의 일정</a></li>
+                    <li><a href="myHoliday.html"><span class="channel-mark">#</span>휴일 일과</a></li>
+                    <li><a href="myTrip.html"><span class="channel-mark">#</span>나의 여행지</a></li>
+                    <li><a href="myAccount.html"><span class="channel-mark">●</span>내 계정</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="sidebar-section secondary">
+            <p class="sidebar-title">바로가기</p>
+            <ul class="sidebar-list">
+                <li><a href="https://github.com/Heo-jinnyeong" target="_blank" rel="noopener"><span class="channel-mark">↗</span>GitHub</a></li>
+                <li><a href="mailto:wlssud132@gmail.com"><span class="channel-mark">@</span>Email</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-profile">
+            <div class="avatar" aria-hidden="true">HJ</div>
+            <p><strong>허진녕</strong><br><small>AI Computer Vision</small></p>
+        </div>
+    </aside>
+
+    <div class="page-shell">
+        <header class="topbar">
+            <div>
+                <h1># 나의-소개</h1>
+                <p>저를 만드는 태도와 취향, 연구·학업 경험을 한곳에 정리했습니다.</p>
+            </div>
+            <span class="status-pill"><span class="status-dot"></span>Profile</span>
+        </header>
+
+        <div class="page-content profile-page-content">
+            <section class="profile-hero-new" aria-labelledby="profile-name">
+                <div class="profile-hero-copy">
+                    <div class="profile-name-row">
+                        <h1 id="profile-name">허진녕</h1>
+                        <p class="profile-role">AI Computer Vision Researcher</p>
+                    </div>
+                    <p class="profile-lead">기술을 깊이 탐구하고, 현실의 문제를 해결하는 연구자입니다.</p>
+                    <div class="profile-hero-actions">
+                        <a href="mailto:wlssud132@gmail.com">✉ 이메일</a>
+                        <a href="https://github.com/Heo-jinnyeong" target="_blank" rel="noopener">↗ GitHub</a>
+                    </div>
+                </div>
+            </section>
+
+            <nav class="profile-section-nav" aria-label="프로필 섹션 바로가기">
+                <a href="#personal-profile"><span>01</span> Profile</a>
+                <a href="#academic-profile"><span>02</span> Academic Profile</a>
+            </nav>
+
+            <section class="personal-profile" id="personal-profile" aria-labelledby="personal-title">
+                <header class="profile-section-heading">
+                    <div>
+                        <p class="section-number">01 · ABOUT ME</p>
+                        <h2 id="personal-title">Profile</h2>
+                    </div>
+                </header>
+
+                <article class="profile-manifesto">
+                    <div class="manifesto-label"><span aria-hidden="true">✦</span> MY MOTTO</div>
+                    <div>
+                        <h3>“동기부여된 꾸준함은 무한 동력이다.”</h3>
+                        <p>익숙하지 않은 분야도 꾸준히 배우며 제 것으로 만들고, 마주한 문제는 원인을 찾을 때까지 파고듭니다. 혼자의 성장을 넘어 동료와 함께 더 나은 결과를 만드는 책임감 있는 사람이 되고자 합니다.</p>
+                    </div>
+                </article>
+
+                <section class="profile-keywords" aria-labelledby="keywords-title">
+                    <div class="profile-mini-heading">
+                        <p>WORDS THAT DEFINE ME</p>
+                        <h3 id="keywords-title">나를 설명하는 단어들</h3>
+                    </div>
+                    <div class="keyword-grid">
+                        <article class="keyword-card"><span>01</span><h4>꾸준함</h4><p>작은 노력을 멈추지 않고 목표를 결과로 연결합니다.</p></article>
+                        <article class="keyword-card"><span>02</span><h4>집요함</h4><p>한계 앞에서 멈추기보다 답을 찾을 때까지 파고듭니다.</p></article>
+                        <article class="keyword-card"><span>03</span><h4>구조적 분석</h4><p>현상보다 근본 원인을 살피고 해결 순서를 설계합니다.</p></article>
+                        <article class="keyword-card"><span>04</span><h4>자율과 책임</h4><p>필요한 일을 스스로 정의하고 맡은 결과를 끝까지 책임집니다.</p></article>
+                        <article class="keyword-card"><span>05</span><h4>협업과 소통</h4><p>서로의 관점을 연결해 팀이 같은 방향으로 나아가게 합니다.</p></article>
+                        <article class="keyword-card"><span>06</span><h4>성실과 정직</h4><p>부족함과 오류를 솔직히 마주하며 신뢰를 쌓습니다.</p></article>
+                    </div>
+                </section>
+
+                <div class="profile-life-grid">
+                    <section class="profile-life-card food-card" aria-labelledby="favorite-food-title">
+                        <div class="life-card-heading">
+                            <span class="life-icon" aria-hidden="true">🍽️</span>
+                            <div><p>MY FAVORITES</p><h3 id="favorite-food-title">좋아하는 음식</h3></div>
+                        </div>
+                        <ul class="favorite-list">
+                            <li><span>01</span><div><strong>간짜장</strong><small>진한 춘장과 갓 볶아낸 불향의 조합</small></div></li>
+                            <li><span>02</span><div><strong>라멘</strong><small>깊은 육수와 취향대로 고르는 다양한 맛</small></div></li>
+                            <li><span>03</span><div><strong>곤드레밥</strong><small>담백한 향과 양념장이 주는 편안한 한 끼</small></div></li>
+                        </ul>
+                    </section>
+
+                    <section class="profile-life-card goal-card" aria-labelledby="year-goals-title">
+                        <div class="life-card-heading">
+                            <span class="life-icon" aria-hidden="true">🎯</span>
+                            <div><p>THIS YEAR</p><h3 id="year-goals-title">올해 할 일</h3></div>
+                        </div>
+                        <ol class="goal-list">
+                            <li><span class="goal-check" aria-hidden="true">✓</span><div><strong>SKALA 수료</strong><small>배움과 프로젝트를 끝까지 완주하기</small></div></li>
+                            <li><span class="goal-check" aria-hidden="true">→</span><div><strong>취업</strong><small>기술로 실제 문제를 해결하는 팀에 합류하기</small></div></li>
+                            <li><span class="goal-check" aria-hidden="true">∞</span><div><strong>꾸준한 책 읽기</strong><small>매일 조금씩 읽고 생각을 기록하기</small></div></li>
+                        </ol>
+                    </section>
+                </div>
+            </section>
+
+            <section class="academic-profile" id="academic-profile" aria-labelledby="academic-title">
+                <header class="academic-header">
+                    <div>
+                        <p class="section-number">02 · ACADEMIC</p>
+                        <h2 id="academic-title">Academic Profile</h2>
+                    </div>
+                    <p>Computer Vision을 중심으로 쌓아 온 학업·연구·프로젝트 경험입니다.</p>
+                </header>
+
+                <div class="academic-top-grid">
+                    <article class="academic-card education-card">
+                        <div class="academic-card-title">
+                            <span>EDU</span>
+                            <h3>Education</h3>
+                        </div>
+                        <ol class="academic-timeline">
+                            <li>
+                                <time>2023.09 — 2026.02</time>
+                                <h4>연세대학교 정보대학원</h4>
+                                <p>정보 시스템 · AI Computer Vision</p>
+                                <strong>GPA 4.06 / 4.3</strong>
+                            </li>
+                            <li>
+                                <time>2020.03 — 2023.08</time>
+                                <h4>한국항공대학교</h4>
+                                <p>경영학사 · AI융합경영 공학사</p>
+                                <strong>GPA 4.28 / 4.5 · 최우수졸업</strong>
+                            </li>
+                        </ol>
+                    </article>
+
+                    <article class="academic-card interests-card">
+                        <div class="academic-card-title">
+                            <span>R&D</span>
+                            <h3>Research Interests</h3>
+                        </div>
+                        <div class="research-tags">
+                            <span>Computer Vision</span>
+                            <span>3D Semantic Scene Completion</span>
+                            <span>3D Reconstruction</span>
+                            <span>Object Detection</span>
+                        </div>
+                        <p class="research-note">카메라 기반 3D 공간 이해와 실제 환경에서 활용 가능한 시각 인공지능을 연구합니다.</p>
+                    </article>
+                </div>
+
+                <section class="academic-subsection" aria-labelledby="publication-title">
+                    <div class="academic-subsection-title">
+                        <p>RESEARCH OUTPUT</p>
+                        <h3 id="publication-title">Publications</h3>
+                    </div>
+                    <ol class="publication-list">
+                        <li>
+                            <span class="publication-number">01</span>
+                            <div>
+                                <strong>Towards Temporal Fusion Beyond the Field of View for Camera-based Semantic Scene Completion</strong>
+                                <p>Association for the Advancement of Artificial Intelligence · AAAI 2026</p>
+                                <a class="publication-link" href="https://heo-jinnyeong.github.io/Towards-Temporal-Fusion-Beyond-the-Field-of-View-for-Camera-based-Semantic-Scene-Completion-AAAI2026/" target="_blank" rel="noopener">논문 페이지 보기 <span aria-hidden="true">↗</span></a>
+                            </div>
+                            <span class="publication-type">AAAI</span>
+                        </li>
+                        <li>
+                            <span class="publication-number">02</span>
+                            <div>
+                                <strong>Gaussian Blending: Improved 3D Gaussian Splatting for Model Light-Weighting and Deep Learning-Based Performance Enhancement</strong>
+                                <p>한국컴퓨터정보학회논문지 · Vol. 29, No. 08 · 2024</p>
+                                <a class="publication-link" href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003109543" target="_blank" rel="noopener">KCI에서 보기 <span aria-hidden="true">↗</span></a>
+                            </div>
+                            <span class="publication-type">KCI</span>
+                        </li>
+                        <li>
+                            <span class="publication-number">03</span>
+                            <div>
+                                <strong>Pothole Detection Using Deep Learning and Domain-Based Image Preprocessing Methods</strong>
+                                <p>한국지식정보기술학회논문지 · Vol. 18, No. 5 · 2023</p>
+                                <a class="publication-link" href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003011598" target="_blank" rel="noopener">KCI에서 보기 <span aria-hidden="true">↗</span></a>
+                            </div>
+                            <span class="publication-type">KCI</span>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="academic-subsection" aria-labelledby="project-title">
+                    <div class="academic-subsection-title">
+                        <p>SELECTED WORK</p>
+                        <h3 id="project-title">Projects</h3>
+                    </div>
+                    <div class="academic-project-grid">
+                        <article class="academic-project featured-project">
+                            <time>2024.02 — 2025.02</time>
+                            <h4>양방향 구어–수어 번역 시스템 및 수어봇</h4>
+                            <p>연세대학교 MLCF 연구실 국가 연구과제에서 데이터셋 제작 및 검증을 수행했습니다.</p>
+                            <span>National R&D</span>
+                        </article>
+                        <article class="academic-project featured-project">
+                            <time>2023.09 — 2025.05</time>
+                            <h4>스마트 외장재 설비 융복합 기술개발</h4>
+                            <p>제로에너지건축물 구현을 위한 모델 개발, 실증 실험과 API 통신을 담당했습니다.</p>
+                            <span>Computer Vision · API</span>
+                        </article>
+                        <article class="academic-project">
+                            <time>2023.01 — 2023.02</time>
+                            <h4>도로 파손 감지 서비스</h4>
+                            <p>데이터 제작부터 Classification, Object Detection 및 서빙까지 End-to-end로 진행했습니다.</p>
+                        </article>
+                        <article class="academic-project">
+                            <time>2022.12 — 2023.01</time>
+                            <h4>재활용 품목 Semantic Segmentation</h4>
+                            <p>배경을 포함한 11종의 재활용 품목을 픽셀 단위로 분류했습니다.</p>
+                        </article>
+                        <article class="academic-project">
+                            <time>2022.12</time>
+                            <h4>이미지 속 글자 검출 성능 개선</h4>
+                            <p>데이터 제작과 검수를 통해 데이터 이해도와 OCR 검출 성능을 개선했습니다.</p>
+                        </article>
+                        <article class="academic-project">
+                            <time>2022.11 — 2022.12</time>
+                            <h4>재활용 품목 Object Detection</h4>
+                            <p>10종의 재활용 품목을 탐지하는 객체 검출 모델을 개발했습니다.</p>
+                        </article>
+                        <article class="academic-project">
+                            <time>2022.10 — 2022.11</time>
+                            <h4>마스크 착용 상태 분류</h4>
+                            <p>착용 상태, 성별, 연령대를 기준으로 18개 클래스를 분류했습니다.</p>
+                        </article>
+                        <article class="academic-project">
+                            <time>2022.04 — 2022.06</time>
+                            <h4>심장질환 예방 추천시스템</h4>
+                            <p>Kaggle 데이터를 활용해 심장 질환 발병 확률을 낮추는 활동을 추천했습니다.</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="credential-section" aria-labelledby="credential-title">
+                    <div class="academic-subsection-title">
+                        <p>CREDENTIALS</p>
+                        <h3 id="credential-title">Certification &amp; Training</h3>
+                    </div>
+                    <div class="credential-list">
+                        <article><strong>SQLD</strong><span>SQL 개발자 · 2026.03</span></article>
+                        <article><strong>OPIc IH</strong><span>Intermediate High · 2025.05</span></article>
+                        <article><strong>NAVER Boostcamp AI Tech</strong><span>Computer Vision Track · 2022.09–2023.02</span></article>
+                        <article><strong>H-모빌리티 클래스</strong><span>자율주행 판단 Track · 2026.04–2026.06</span></article>
+                    </div>
+                </section>
+            </section>
+
+            <footer>
+                <p><strong>SKALA-FRONT 강의 과제</strong> · HTML, CSS, JavaScript 실습 결과물</p>
+                <p>© 2026 허진녕 · <a href="mailto:wlssud132@gmail.com">wlssud132@gmail.com</a></p>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>

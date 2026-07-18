@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SKALA-FRONT 내 계정 정보 수정">
+    <title>내 계정 | SKALA-FRONT</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script/authGuard.js"></script>
+</head>
+<body>
+<div class="container app-shell">
+    <aside class="workspace-sidebar">
+        <div class="workspace-brand">
+            <div class="workspace-logo" aria-hidden="true">S</div>
+            <div>
+                <strong>SKALA-FRONT</strong>
+                <small>HTML · CSS · JavaScript</small>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <p class="sidebar-title">과제 채널</p>
+            <nav aria-label="과제 페이지">
+                <ul>
+                    <li><a href="../index.html"><span class="channel-mark">⌂</span>메인 Hub</a></li>
+                    <li><a href="myProfile.html"><span class="channel-mark">#</span>나의 소개</a></li>
+                    <li><a href="myClass.html"><span class="channel-mark">#</span>강의 일정</a></li>
+                    <li><a href="myHoliday.html"><span class="channel-mark">#</span>휴일 일과</a></li>
+                    <li><a href="myTrip.html"><span class="channel-mark">#</span>나의 여행지</a></li>
+                    <li><a href="myAccount.html" aria-current="page"><span class="channel-mark">●</span>내 계정</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="sidebar-profile">
+            <div class="avatar" id="account-sidebar-avatar" aria-hidden="true">U</div>
+            <p><strong id="account-sidebar-name">사용자</strong><br><small>로그인됨</small></p>
+        </div>
+    </aside>
+
+    <div class="page-shell">
+        <header class="topbar">
+            <div>
+                <h1># 내-계정</h1>
+                <p>개인정보와 로그인 정보를 관리합니다.</p>
+            </div>
+            <span class="status-pill"><span class="status-dot"></span>로그인됨</span>
+        </header>
+
+        <div class="page-content account-page-content">
+            <section class="account-heading">
+                <div class="account-avatar" id="account-avatar" aria-hidden="true">U</div>
+                <div>
+                    <p class="account-eyebrow">ACCOUNT SETTINGS</p>
+                    <h1>내 계정</h1>
+                    <p>회원가입할 때 입력한 정보를 확인하고 수정할 수 있습니다.</p>
+                </div>
+            </section>
+
+            <section class="form-card account-form-card">
+                <form id="account-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="account-name">이름 <span class="required-mark">*</span></label>
+                            <input type="text" id="account-name" autocomplete="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="account-email">이메일 <span class="required-mark">*</span></label>
+                            <input type="email" id="account-email" autocomplete="email" required>
+                        </div>
+                        <div class="form-group full">
+                            <label for="account-id">아이디 <span class="required-mark">*</span></label>
+                            <input type="text" id="account-id" autocomplete="username" minlength="4" maxlength="15" pattern="[A-Za-z0-9_]+" required>
+                            <p class="input-help">4~15자의 영문, 숫자, 밑줄만 사용할 수 있습니다.</p>
+                        </div>
+                        <div class="form-group full">
+                            <label for="account-password">새 비밀번호</label>
+                            <input type="password" id="account-password" autocomplete="new-password" minlength="8" placeholder="변경할 때만 8자 이상 입력하세요">
+                            <p class="input-help">비워 두면 기존 비밀번호가 유지됩니다.</p>
+                        </div>
+                    </div>
+
+                    <p id="account-message" class="account-message" role="status" aria-live="polite"></p>
+                    <div class="form-actions account-actions">
+                        <button type="submit" class="btn-submit">변경사항 저장</button>
+                        <button type="button" class="btn-reset" id="account-reset">변경 취소</button>
+                        <button type="button" class="button account-logout" id="account-logout">로그아웃</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</div>
+<script src="../script/myAccount.js"></script>
+</body>
+</html>

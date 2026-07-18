@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="후쿠오카, 싱가포르, 제주도의 여행 기록">
+    <title>나의 여행지 | SKALA-FRONT</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script/authGuard.js"></script>
+</head>
+<body>
+<div class="container app-shell">
+    
+<aside class="workspace-sidebar">
+    <div class="workspace-brand">
+        <div class="workspace-logo" aria-hidden="true">S</div>
+        <div>
+            <strong>SKALA-FRONT</strong>
+            <small>HTML · CSS · JavaScript</small>
+        </div>
+    </div>
+
+    <div class="sidebar-section">
+        <p class="sidebar-title">과제 채널</p>
+        <nav aria-label="과제 페이지">
+            <ul>
+                <li><a href="../index.html"><span class="channel-mark">⌂</span>메인 Hub</a></li><li><a href="myProfile.html"><span class="channel-mark">#</span>나의 소개</a></li><li><a href="myClass.html"><span class="channel-mark">#</span>강의 일정</a></li><li><a href="myHoliday.html"><span class="channel-mark">#</span>휴일 일과</a></li><li><a href="myTrip.html" aria-current="page"><span class="channel-mark">#</span>나의 여행지</a></li><li><a href="myAccount.html"><span class="channel-mark">●</span>내 계정</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="sidebar-section secondary">
+        <p class="sidebar-title">바로가기</p>
+        <ul class="sidebar-list">
+            <li><a href="https://github.com/Heo-jinnyeong" target="_blank" rel="noopener"><span class="channel-mark">↗</span>GitHub</a></li>
+            <li><a href="mailto:wlssud132@gmail.com"><span class="channel-mark">@</span>Email</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar-profile">
+        <div class="avatar" aria-hidden="true">HJ</div>
+        <p><strong>허진녕</strong><br><small>AI Computer Vision</small></p>
+    </div>
+</aside>
+
+    <div class="page-shell">
+        
+<header class="topbar">
+    <div>
+        <h1># 나의-여행지</h1>
+        <p>사진과 음악으로 기록한 나의 여행 아카이브</p>
+    </div>
+    <span class="status-pill"><span class="status-dot"></span>과제 통합 완료</span>
+</header>
+
+        <div class="page-content trip-page-content">
+            <section class="trip-archive-hero" aria-labelledby="trip-archive-title">
+                <img src="../media/trip-jeju.jpg" alt="성산일출봉에서 내려다본 제주 바다와 마을 풍경">
+                <div class="trip-hero-overlay">
+                    <p>MY TRAVEL ARCHIVE · 2026</p>
+                    <h1 id="trip-archive-title">기억하고 싶은<br><em>여행의 장면들</em></h1>
+                    <span>낯선 도시의 공기, 함께한 사람들, 오래 바라본 풍경을 사진으로 남겼습니다.</span>
+                </div>
+                <div class="trip-music-card">
+                    <span class="trip-music-icon" aria-hidden="true">♫</span>
+                    <div><small>TRAVEL PLAYLIST</small><strong>여행과 함께 듣기</strong></div>
+                    <button type="button" id="trip-music-toggle" aria-pressed="false"><span aria-hidden="true">▶</span><span class="trip-music-label">재생</span></button>
+                    <div id="trip-music-player" class="trip-music-player" aria-hidden="true"></div>
+                </div>
+            </section>
+
+            <section class="trip-stories" aria-labelledby="trip-stories-title">
+                <header class="trip-section-heading"><div><p>THREE MOMENTS</p><h2 id="trip-stories-title">세 도시, 세 가지 기억</h2></div></header>
+                <div class="trip-album-list">
+                    <details class="trip-album">
+                        <summary>
+                            <img src="../media/trip-fukuoka-1.jpg" alt="후쿠오카 공항의 Welcome to Fukuoka 안내판" loading="eager">
+                            <span class="trip-album-overlay"><small>01 · JAPAN</small><strong>후쿠오카</strong><em>사진 5장</em><i aria-hidden="true">＋</i></span>
+                        </summary>
+                        <div class="trip-sub-gallery">
+                            <figure><img src="../media/trip-fukuoka-2.jpg" alt="후쿠오카에서 먹은 다양한 초밥" loading="lazy"><figcaption>후쿠오카의 신선한 초밥</figcaption></figure>
+                            <figure><img src="../media/trip-fukuoka-3.jpg" alt="후쿠오카에서 즐긴 햄버그와 맥주" loading="lazy"><figcaption>함께 즐긴 저녁 한 끼</figcaption></figure>
+                            <figure><img src="../media/trip-fukuoka-4.jpg" alt="후쿠오카에서 먹은 규카츠 정식" loading="lazy"><figcaption>뜨거운 돌판 위의 규카츠</figcaption></figure>
+                            <figure><img src="../media/trip-fukuoka-5.jpg" alt="후쿠오카에서 먹은 돈코츠 라멘" loading="lazy"><figcaption>여행의 마지막을 채운 라멘</figcaption></figure>
+                        </div>
+                    </details>
+
+                    <details class="trip-album">
+                        <summary>
+                            <img src="../media/trip-singapore-1.jpg" alt="싱가포르 AAAI 행사장에서 동료들과 함께 찍은 사진" loading="lazy">
+                            <span class="trip-album-overlay"><small>02 · SINGAPORE</small><strong>싱가포르</strong><em>사진 3장</em><i aria-hidden="true">＋</i></span>
+                        </summary>
+                        <div class="trip-sub-gallery trip-sub-gallery-two">
+                            <figure><img src="../media/trip-singapore-2.jpg" alt="밤에 바라본 싱가포르 마리나 베이 샌즈" loading="lazy"><figcaption>마리나 베이의 야경</figcaption></figure>
+                            <figure><img src="../media/trip-singapore-3.jpg" alt="밤에 바라본 싱가포르 도심과 조명 다리" loading="lazy"><figcaption>빛으로 가득한 도심 산책</figcaption></figure>
+                        </div>
+                    </details>
+
+                    <details class="trip-album">
+                        <summary>
+                            <img src="../media/trip-jeju-1.jpg" alt="성산일출봉에서 내려다본 제주 바다와 마을 풍경" loading="lazy">
+                            <span class="trip-album-overlay"><small>03 · JEJU</small><strong>제주도</strong><em>사진 3장</em><i aria-hidden="true">＋</i></span>
+                        </summary>
+                        <div class="trip-sub-gallery trip-sub-gallery-two">
+                            <figure><img src="../media/trip-jeju-2.jpg" alt="푸른 하늘 아래 바라본 성산일출봉" loading="lazy"><figcaption>가까이에서 바라본 성산일출봉</figcaption></figure>
+                            <figure><img src="../media/trip-jeju-3.jpg" alt="제주에서 먹은 곤드레 돌솥밥과 반찬" loading="lazy"><figcaption>여행 중 만난 든든한 한 끼</figcaption></figure>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <section class="trip-video-section" aria-labelledby="trip-video-title">
+                <header class="trip-video-heading">
+                    <div><p>TRAVEL FILM</p><h2 id="trip-video-title">영상으로 다시 만나는 여행</h2></div>
+                    <span>사진에 담기지 않은 여행의 분위기와 움직임을 영상으로 기록했습니다.</span>
+                </header>
+                <div class="trip-video-frame">
+                    <video id="trip-video" controls playsinline preload="metadata" poster="../media/trip-jeju.jpg">
+                        <source src="../media/trip-video.mp4" type="video/mp4">
+                        브라우저가 동영상 재생을 지원하지 않습니다.
+                    </video>
+                </div>
+            </section>
+
+            
+<footer>
+    <p><strong>SKALA-FRONT 강의 과제</strong> · HTML, CSS, JavaScript 실습 결과물</p>
+    <p>© 2026 허진녕 · <a href="mailto:wlssud132@gmail.com">wlssud132@gmail.com</a></p>
+</footer>
+
+        </div>
+    </div>
+</div>
+<script src="../script/tripMusic.js"></script>
+<script src="../script/tripAlbum.js"></script>
+<script src="../script/tripLightbox.js"></script>
+</body>
+</html>

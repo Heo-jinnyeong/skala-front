@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SKALA-FRONT HTML, CSS, JavaScript 강의 과제 통합 Hub">
+    <title>Welcome SKALA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/authGuard.js"></script>
+</head>
+<body>
+<div class="container app-shell">
+    
+<aside class="workspace-sidebar">
+    <div class="workspace-brand">
+        <div class="workspace-logo" aria-hidden="true">S</div>
+        <div>
+            <strong>SKALA-FRONT</strong>
+            <small>HTML · CSS · JavaScript</small>
+        </div>
+    </div>
+
+    <div class="sidebar-section">
+        <p class="sidebar-title">과제 채널</p>
+        <nav aria-label="과제 페이지">
+            <ul>
+                <li><a href="index.html" aria-current="page"><span class="channel-mark">⌂</span>메인 Hub</a></li><li><a href="html/myProfile.html"><span class="channel-mark">#</span>나의 소개</a></li><li><a href="html/myClass.html"><span class="channel-mark">#</span>강의 일정</a></li><li><a href="html/myHoliday.html"><span class="channel-mark">#</span>휴일 일과</a></li><li><a href="html/myTrip.html"><span class="channel-mark">#</span>나의 여행지</a></li><li><a href="html/myAccount.html"><span class="channel-mark">●</span>내 계정</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="sidebar-section secondary">
+        <p class="sidebar-title">바로가기</p>
+        <ul class="sidebar-list">
+            <li><a href="https://github.com/Heo-jinnyeong" target="_blank" rel="noopener"><span class="channel-mark">↗</span>GitHub</a></li>
+            <li><a href="mailto:wlssud132@gmail.com"><span class="channel-mark">@</span>Email</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar-profile">
+        <div class="avatar" aria-hidden="true">HJ</div>
+        <p><strong>허진녕</strong><br><small>AI Computer Vision</small></p>
+    </div>
+</aside>
+
+    <div class="page-shell">
+        
+<header class="topbar">
+    <div>
+        <h1># 메인-hub</h1>
+        <p>17개 강의 과제를 한곳에서 실행하고 확인합니다.</p>
+    </div>
+    <span class="status-pill"><span class="status-dot"></span>과제 통합 완료</span>
+</header>
+
+        <div class="page-content">
+            <section class="hero" aria-labelledby="welcome-title">
+                <div class="hero-copy">
+                    <p class="hero-kicker"><span aria-hidden="true">✦</span> SKALA FRONT-END JOURNEY</p>
+                    <h1 id="welcome-title">배운 것을 코드로,<br><em>아이디어를 웹으로.</em></h1>
+                    <p class="hero-description">SKALA에서 익힌 HTML의 구조, CSS의 표현, JavaScript의 상호작용을 하나의 웹사이트에 담았습니다. 기초부터 직접 구현하며 완성한 프론트엔드 학습 공간입니다.</p>
+                    <ul class="hero-tech-list" aria-label="주요 학습 기술">
+                        <li><strong>HTML</strong><span>Structure</span></li>
+                        <li><strong>CSS</strong><span>Style</span></li>
+                        <li><strong>JavaScript</strong><span>Interaction</span></li>
+                    </ul>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#channel-explorer">학습 결과 둘러보기 <span aria-hidden="true">→</span></a>
+                        <a class="button button-ghost" href="html/myClass.html">강의 일정 보기</a>
+                    </div>
+                </div>
+                <div class="hero-code-card" aria-hidden="true">
+                    <div class="code-card-bar"><span></span><span></span><span></span><small>skala-project.js</small></div>
+                    <div class="code-card-body">
+                        <p><span class="code-purple">const</span> journey = {</p>
+                        <p>&nbsp;&nbsp;structure: <span class="code-green">"HTML"</span>,</p>
+                        <p>&nbsp;&nbsp;style: <span class="code-blue">"CSS"</span>,</p>
+                        <p>&nbsp;&nbsp;interaction: <span class="code-yellow">"JavaScript"</span>,</p>
+                        <p>&nbsp;&nbsp;with: <span class="code-green">"SKALA"</span></p>
+                        <p>};</p>
+                        <p class="code-output">// build something meaningful_</p>
+                    </div>
+                </div>
+            </section>
+
+            <section aria-labelledby="assignment-status">
+                <div class="section-heading">
+                    <div>
+                        <h2 id="assignment-status">과제 진행 현황</h2>
+                        <p>주요 학습 항목을 모두 완료했습니다.</p>
+                    </div>
+                    <strong id="assignment-position" aria-live="polite">1 / 17</strong>
+                </div>
+                <div class="assignment-carousel" aria-label="전체 과제 목록">
+                    <button type="button" class="carousel-button carousel-prev" aria-label="이전 과제 보기" aria-controls="assignment-viewport">‹</button>
+                    <div class="assignment-viewport" id="assignment-viewport" tabindex="0">
+                        <ul class="assignment-checklist main-checklist">
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>01 · p.39</small><strong>HTML 문서 만들기</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>02 · p.65</small><strong>나의 소개 페이지</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>03 · p.66</small><strong>강의 일정표</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>04 · p.67</small><strong>페이지 바로가기</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>05 · p.79</small><strong>회원가입 폼</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>06 · p.80</small><strong>가입 결과 페이지</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>07 · p.93</small><strong>미디어 여행지</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>08 · p.94</small><strong>통합 메인 Hub</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>09 · p.134</small><strong>CSS 박스 모델</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>10 · p.135</small><strong>CSS 레이아웃</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>11 · p.136</small><strong>반응형 스타일</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>12 · p.230</small><strong>Up-Down 게임</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>13 · p.231</small><strong>성적 계산기</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>14 · p.232</small><strong>가방 객체 출력</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>15 · p.261</small><strong>도시 좌표 선택</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>16 · p.262</small><strong>비동기 날씨 조회</strong></span></li>
+                            <li><span class="check-icon" aria-hidden="true">✓</span><span><small>17 · p.263</small><strong>날씨 API 모듈</strong></span></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="carousel-button carousel-next" aria-label="다음 과제 보기" aria-controls="assignment-viewport">›</button>
+                </div>
+                <div class="carousel-status">
+                    <span>옆으로 밀어서 더 보기</span>
+                </div>
+            </section>
+
+            <div class="content-wrapper">
+                <main class="channel-panel" id="channel-explorer">
+                    <div class="channel-header">
+                        <h2># 채널-둘러보기</h2>
+                        <p>각 채널의 주요 내용을 확인하고 원하는 페이지로 바로 이동하세요.</p>
+                    </div>
+                    <div class="channel-preview-grid">
+                        <a class="channel-preview" href="html/myProfile.html" style="--channel-accent: var(--slack-purple);">
+                            <span class="channel-preview-icon" aria-hidden="true">👤</span>
+                            <span class="channel-preview-body">
+                                <strong># 나의-소개</strong>
+                                <span>Computer Vision 연구 경험과 학력, 관심 기술 및 주요 연구 성과를 소개합니다.</span>
+                                <small>Computer Vision · 3D SSC · 연구 활동</small>
+                            </span>
+                            <span class="channel-preview-arrow" aria-hidden="true">→</span>
+                        </a>
+                        <a class="channel-preview" href="html/myClass.html" style="--channel-accent: var(--slack-blue);">
+                            <span class="channel-preview-icon" aria-hidden="true">📅</span>
+                            <span class="channel-preview-body">
+                                <strong># 강의-일정</strong>
+                                <span>HTML, CSS, JavaScript 강의 시간표와 과목별 학습 내용을 확인합니다.</span>
+                                <small>시간표 · HTML · CSS · JavaScript</small>
+                            </span>
+                            <span class="channel-preview-arrow" aria-hidden="true">→</span>
+                        </a>
+                        <a class="channel-preview" href="html/myHoliday.html" style="--channel-accent: var(--slack-red);">
+                            <span class="channel-preview-icon" aria-hidden="true">🎬</span>
+                            <span class="channel-preview-body">
+                                <strong># 휴일-일과</strong>
+                                <span>느긋한 아침부터 조깅, 학습, 영화 감상과 주간 회고까지 담았습니다.</span>
+                                <small>일상 · 조깅 · 영화 · 회고</small>
+                            </span>
+                            <span class="channel-preview-arrow" aria-hidden="true">→</span>
+                        </a>
+                        <a class="channel-preview" href="html/myTrip.html" style="--channel-accent: var(--slack-green);">
+                            <span class="channel-preview-icon" aria-hidden="true">🌿</span>
+                            <span class="channel-preview-body">
+                                <strong># 나의-여행지</strong>
+                                <span>춘천, 홋카이도, 제주에서의 여행 기록과 브이로그를 둘러봅니다.</span>
+                                <small>춘천 · 홋카이도 · 제주 · 브이로그</small>
+                            </span>
+                            <span class="channel-preview-arrow" aria-hidden="true">→</span>
+                        </a>
+                    </div>
+                    <section class="collaboration-contact" aria-labelledby="collaboration-title">
+                        <div class="collaboration-copy">
+                            <p>LET’S WORK TOGETHER</p>
+                            <h2 id="collaboration-title"># 협업-문의</h2>
+                            <span>Computer Vision 연구, AI 프로젝트 또는 함께 만들어 보고 싶은 아이디어가 있다면 편하게 연락해 주세요.</span>
+                            <div class="collaboration-tags" aria-label="협업 관심 분야">
+                                <small>Computer Vision</small><small>AI Project</small><small>Research</small>
+                            </div>
+                        </div>
+                        <form class="collaboration-form" id="collaboration-form">
+                            <label for="collaboration-subject">제목</label>
+                            <input type="text" id="collaboration-subject" name="subject" required maxlength="80" placeholder="문의 제목을 입력하세요">
+                            <label for="collaboration-message">내용</label>
+                            <textarea id="collaboration-message" name="message" required maxlength="1000" rows="4" placeholder="함께 이야기하고 싶은 내용을 입력하세요"></textarea>
+                            <div class="collaboration-actions">
+                                <button type="submit">문의 메일 작성 <span aria-hidden="true">→</span></button>
+                                <a href="https://github.com/Heo-jinnyeong" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+                            </div>
+                        </form>
+                    </section>
+                </main>
+
+                <aside class="sidebar-stack">
+                    <section class="tool-card">
+                        <h2>🌤️ 실시간 날씨</h2>
+                        <p>현재 위치를 기준으로 실시간 날씨를 알려드립니다.</p>
+                        <button type="button" class="location-weather-button" id="location-weather-button">
+                            <span aria-hidden="true">◎</span> 현재 위치 날씨 불러오기
+                        </button>
+                        <div class="weather-divider"><span>또는</span></div>
+                        <label for="city-select">도시 직접 선택</label>
+                        <select id="city-select">
+                            <option value="none">도시를 선택하세요</option>
+                            <option value="37.6584,126.8320">대한민국 고양 🇰🇷</option>
+                            <option value="37.5665,126.9780">대한민국 서울 🇰🇷</option>
+                            <option value="35.1595,126.8526">대한민국 광주 🇰🇷</option>
+                            <option value="35.6762,139.6503">일본 도쿄 🇯🇵</option>
+                            <option value="43.0618,141.3545">일본 삿포로 🇯🇵</option>
+                        </select>
+                        <div id="weather-box" aria-live="polite">
+                            <p>현재 위치를 확인하고 있습니다. 브라우저의 위치 권한을 허용해 주세요.</p>
+                        </div>
+                    </section>
+
+                    <section class="tool-card">
+                        <h2>🎮 JavaScript 실습</h2>
+                        <p>버튼을 눌러 각 과제를 실행해 보세요.</p>
+                        <div class="tool-buttons">
+                            <button type="button" class="tool-button" onclick="startGame()">Up-Down 게임</button>
+                            <button type="button" class="tool-button" onclick="checkGrade()">성적 계산기</button>
+                            <button type="button" class="tool-button" onclick="showMyBag()">내 가방 보기</button>
+                        </div>
+                    </section>
+
+                    <section class="info-card" style="--accent: var(--slack-green);">
+                        <h2>✅ 제출 체크</h2>
+                        <div class="progress-row">
+                            <div class="progress-label"><span>요구사항 충족</span><strong>100%</strong></div>
+                            <div class="progress-track"><div class="progress-value"></div></div>
+                        </div>
+                        <p>Live Server로 실행하면 ES Module과 실시간 날씨 기능까지 정상 동작합니다.</p>
+                    </section>
+                </aside>
+            </div>
+
+            
+<footer>
+    <p><strong>SKALA-FRONT 강의 과제</strong> · HTML, CSS, JavaScript 실습 결과물</p>
+    <p>© 2026 허진녕 · <a href="mailto:wlssud132@gmail.com">wlssud132@gmail.com</a></p>
+</footer>
+
+        </div>
+    </div>
+</div>
+<script src="script/upDown.js"></script>
+<script src="script/grade.js"></script>
+<script src="script/bag.js"></script>
+<script src="script/assignmentCarousel.js"></script>
+<script src="script/collaborationForm.js"></script>
+<script type="module" src="script/realtimeInfo.js"></script>
+</body>
+</html>

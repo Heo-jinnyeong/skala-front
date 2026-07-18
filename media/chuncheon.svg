@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+<title id="title">춘천 여행 일러스트</title>
+<desc id="desc">산과 호수, 레일바이크를 단순화해 표현한 그림</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#36c5f0"/>
+    <stop offset="1" stop-color="#dff7ff"/>
+  </linearGradient>
+  <linearGradient id="lake" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8de0f5"/>
+    <stop offset="1" stop-color="#247ba0"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="750" fill="url(#sky)"/>
+<circle cx="960" cy="130" r="72" fill="#ecb22e" opacity=".9"/>
+<path d="M0 430 L210 210 L365 395 L540 170 L760 430 Z" fill="#4a6b57"/>
+<path d="M420 430 L690 225 L900 430 Z" fill="#2f5741"/>
+<path d="M0 410 L235 235 L360 395" fill="none" stroke="#f6f9fb" stroke-width="22" opacity=".75"/>
+<rect y="410" width="1200" height="340" fill="url(#lake)"/>
+<path d="M0 560 C250 520 420 610 650 565 C870 522 1020 570 1200 540 L1200 750 L0 750 Z" fill="#2eb67d" opacity=".55"/>
+<path d="M65 655 C310 620 510 630 760 660" fill="none" stroke="#4a154b" stroke-width="18"/>
+<path d="M68 690 C315 655 520 665 770 695" fill="none" stroke="#4a154b" stroke-width="18"/>
+<g stroke="#c9a77c" stroke-width="14">
+  <line x1="105" y1="648" x2="108" y2="692"/>
+  <line x1="185" y1="638" x2="188" y2="681"/>
+  <line x1="270" y1="632" x2="273" y2="676"/>
+  <line x1="360" y1="630" x2="363" y2="676"/>
+  <line x1="455" y1="632" x2="458" y2="679"/>
+  <line x1="555" y1="640" x2="558" y2="687"/>
+  <line x1="660" y1="650" x2="663" y2="697"/>
+</g>
+<g transform="translate(440 545)">
+  <rect x="0" y="0" width="210" height="85" rx="20" fill="#e01e5a"/>
+  <circle cx="45" cy="90" r="24" fill="#1d1c1d"/>
+  <circle cx="165" cy="90" r="24" fill="#1d1c1d"/>
+  <rect x="55" y="-35" width="100" height="50" rx="12" fill="#fff" opacity=".92"/>
+</g>
+<text x="64" y="92" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#2f0e31">CHUNCHEON</text>
+<text x="67" y="142" font-family="Arial, sans-serif" font-size="28" fill="#2f0e31">lake · mountain · rail bike</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+<title id="title">홋카이도 자연 일러스트</title>
+<desc id="desc">설산과 초원, 라벤더 밭을 표현한 그림</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7dd6f5"/>
+    <stop offset="1" stop-color="#eefaff"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="750" fill="url(#sky)"/>
+<circle cx="1010" cy="118" r="66" fill="#ecb22e"/>
+<path d="M0 440 L220 260 L350 390 L570 130 L850 440 Z" fill="#667c8c"/>
+<path d="M345 390 L570 130 L700 320 L620 285 L570 340 L505 275 L450 340 Z" fill="#fff"/>
+<path d="M560 440 L820 210 L1100 440 Z" fill="#526a78"/>
+<path d="M780 260 L820 210 L900 295 L865 282 L820 322 Z" fill="#fff"/>
+<rect y="430" width="1200" height="320" fill="#8fd06f"/>
+<path d="M0 525 C270 475 460 545 700 500 C920 460 1060 530 1200 500 L1200 750 L0 750 Z" fill="#2eb67d"/>
+<g opacity=".95">
+  <path d="M0 590 L1200 500" stroke="#8f5fb5" stroke-width="38"/>
+  <path d="M0 650 L1200 560" stroke="#b67ad1" stroke-width="38"/>
+  <path d="M0 710 L1200 620" stroke="#8f5fb5" stroke-width="38"/>
+</g>
+<path d="M530 750 L675 430 L780 750 Z" fill="#f4e3b2"/>
+<text x="64" y="92" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#2f0e31">HOKKAIDO</text>
+<text x="67" y="142" font-family="Arial, sans-serif" font-size="28" fill="#2f0e31">snow mountain · field · slow travel</text>
+</svg>

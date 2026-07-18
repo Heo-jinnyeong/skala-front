@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SKALA 나의 강의 일정 표 과제">
+    <title>나의 강의 일정 | SKALA-FRONT</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script/authGuard.js"></script>
+</head>
+<body>
+<div class="container app-shell">
+    
+<aside class="workspace-sidebar">
+    <div class="workspace-brand">
+        <div class="workspace-logo" aria-hidden="true">S</div>
+        <div>
+            <strong>SKALA-FRONT</strong>
+            <small>HTML · CSS · JavaScript</small>
+        </div>
+    </div>
+
+    <div class="sidebar-section">
+        <p class="sidebar-title">과제 채널</p>
+        <nav aria-label="과제 페이지">
+            <ul>
+                <li><a href="../index.html"><span class="channel-mark">⌂</span>메인 Hub</a></li><li><a href="myProfile.html"><span class="channel-mark">#</span>나의 소개</a></li><li><a href="myClass.html" aria-current="page"><span class="channel-mark">#</span>강의 일정</a></li><li><a href="myHoliday.html"><span class="channel-mark">#</span>휴일 일과</a></li><li><a href="myTrip.html"><span class="channel-mark">#</span>나의 여행지</a></li><li><a href="myAccount.html"><span class="channel-mark">●</span>내 계정</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="sidebar-section secondary">
+        <p class="sidebar-title">바로가기</p>
+        <ul class="sidebar-list">
+            <li><a href="https://github.com/Heo-jinnyeong" target="_blank" rel="noopener"><span class="channel-mark">↗</span>GitHub</a></li>
+            <li><a href="mailto:wlssud132@gmail.com"><span class="channel-mark">@</span>Email</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar-profile">
+        <div class="avatar" aria-hidden="true">HJ</div>
+        <p><strong>허진녕</strong><br><small>AI Computer Vision</small></p>
+    </div>
+</aside>
+
+    <div class="page-shell">
+        
+<header class="topbar">
+    <div>
+        <h1># 강의-일정</h1>
+        <p>table, thead, tbody, rowspan, colspan을 사용한 시간표</p>
+    </div>
+    <span class="status-pill"><span class="status-dot"></span>과제 통합 완료</span>
+</header>
+
+        <div class="page-content class-page-content">
+            <section class="class-hero" aria-labelledby="class-page-title">
+                <div>
+                    <p class="class-eyebrow">SKALA · CLASS 04</p>
+                    <h1 id="class-page-title">배움이 쌓이는<br><em>22주의 여정</em></h1>
+                    <p>웹 기초부터 AI 서비스와 팀 프로젝트까지, SKALA에서 익히고 만들어 가는 교육 일정을 기록합니다.</p>
+                </div>
+                <dl class="class-summary">
+                    <div><dt>교육 기간</dt><dd>2026.07.14 — 12.11</dd></div>
+                    <div><dt>전체 과정</dt><dd>22주 · 4 Stages</dd></div>
+                    <div><dt>현재 학습</dt><dd>HTML · CSS · JavaScript</dd></div>
+                </dl>
+            </section>
+
+            <section class="weekly-schedule" aria-labelledby="weekly-title">
+                <header class="class-section-heading">
+                    <div><p>WEEKLY ROUTINE</p><h2 id="weekly-title">주간 학습 시간표</h2></div>
+                    <span>과목에 마우스를 올리면 상세 내용을 확인할 수 있습니다.</span>
+                </header>
+
+                <div class="table-wrap class-table-wrap">
+                <table>
+                    <caption>SKALA-FRONT 주간 학습 시간표</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">시간</th>
+                            <th scope="col">월요일</th>
+                            <th scope="col">화요일</th>
+                            <th scope="col">수요일</th>
+                            <th scope="col">목요일</th>
+                            <th scope="col">금요일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">09:00–10:00</th>
+                            <td class="class-html" rowspan="2" tabindex="0" data-description="웹 문서를 구성하는 주요 태그와 올바른 HTML 문서 구조를 학습합니다.">HTML 기초<br>문서 구조</td>
+                            <td class="class-css" rowspan="2" tabindex="0" data-description="CSS 선택자와 박스 모델을 이용해 요소의 크기와 여백을 제어합니다.">CSS 기초<br>선택자·박스 모델</td>
+                            <td class="class-js" rowspan="2" tabindex="0" data-description="변수, 자료형, 조건문을 통해 JavaScript의 기본 문법을 익힙니다.">JavaScript 기초<br>변수·조건문</td>
+                            <td class="class-project" tabindex="0" data-description="Git으로 변경 이력을 관리하고 GitHub 원격 저장소와 협업하는 방법을 배웁니다.">Git &amp; GitHub</td>
+                            <td class="class-project" rowspan="3" tabindex="0" data-description="한 주 동안 학습한 HTML, CSS, JavaScript를 작은 웹 서비스로 구현합니다.">주간 미니 프로젝트</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10:00–11:00</th>
+                            <td class="class-project" tabindex="0" data-description="서로의 코드를 읽고 개선점과 좋은 구현 방식을 함께 공유합니다.">코드 리뷰</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11:00–12:00</th>
+                            <td class="class-html" tabindex="0" data-description="입력창, 선택 요소, 버튼을 활용해 사용자 정보를 받는 폼을 만듭니다.">HTML Form</td>
+                            <td class="class-css" tabindex="0" data-description="Flexbox와 Grid를 사용해 유연하고 체계적인 화면 배치를 구현합니다.">Flex &amp; Grid</td>
+                            <td class="class-js" tabindex="0" data-description="여러 데이터를 배열과 객체로 구조화하고 필요한 값을 처리합니다.">배열·객체</td>
+                            <td class="class-project" tabindex="0" data-description="요구사항을 분석하고 작은 단위로 나누어 해결하는 과정을 연습합니다.">문제 해결 실습</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12:00–13:00</th>
+                            <td colspan="5">🍱 점심시간 · 동료와 학습 내용 공유</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">13:00–14:00</th>
+                            <td class="class-html" rowspan="2" tabindex="0" data-description="의미 있는 태그와 접근성 속성을 사용해 누구나 이해하기 쉬운 문서를 작성합니다.">시맨틱 HTML<br>접근성</td>
+                            <td class="class-css" rowspan="2" tabindex="0" data-description="미디어 쿼리로 PC, 태블릿, 모바일에 맞게 변화하는 화면을 만듭니다.">반응형 UI<br>미디어 쿼리</td>
+                            <td class="class-js" rowspan="2" tabindex="0" data-description="DOM 요소를 선택하고 사용자의 클릭과 입력 이벤트에 반응하게 만듭니다.">DOM·이벤트</td>
+                            <td class="class-project" rowspan="2" tabindex="0" data-description="학습 내용을 바탕으로 개인 웹 과제의 기능과 화면을 직접 구현합니다.">개인 과제 구현</td>
+                            <td class="class-project" tabindex="0" data-description="한 주의 학습을 돌아보고 멘토 피드백을 다음 목표에 반영합니다.">멘토링·회고</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">14:00–15:00</th>
+                            <td class="class-project" tabindex="0" data-description="피드백과 테스트 결과를 바탕으로 부족한 기능과 디자인을 개선합니다.">과제 보완</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15:00–16:00</th>
+                            <td class="class-project" tabindex="0" data-description="3차원 공간 이해와 Semantic Scene Completion의 핵심 개념을 복습합니다.">3D Vision 복습</td>
+                            <td class="class-project" tabindex="0" data-description="자료구조와 문제 풀이를 통해 논리적인 구현 능력을 기릅니다.">알고리즘 연습</td>
+                            <td class="class-js" tabindex="0" data-description="async와 await를 활용해 API 응답을 기다리고 처리하는 방법을 익힙니다.">비동기 호출</td>
+                            <td class="class-js" tabindex="0" data-description="JavaScript 코드를 모듈로 분리하고 import와 export로 연결합니다.">ES Module</td>
+                            <td class="class-project" tabindex="0" data-description="완성한 코드와 문서를 저장소에 정리해 학습 결과를 기록합니다.">GitHub 정리</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16:00–17:00</th>
+                            <td colspan="3">🧪 실습 결과 확인 · Live Server · 개발자 도구</td>
+                            <td colspan="2">📝 주간 기록 및 다음 학습 계획</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+
+                <div class="schedule-note">
+                <section class="info-card" style="--accent: var(--slack-yellow);">
+                    <h2>HTML</h2>
+                    <p>구조와 의미를 먼저 정확하게 작성합니다.</p>
+                </section>
+                <section class="info-card" style="--accent: var(--slack-blue);">
+                    <h2>CSS</h2>
+                    <p>Slack과 유사한 정보 구조와 반응형 화면을 구현합니다.</p>
+                </section>
+                <section class="info-card" style="--accent: var(--slack-green);">
+                    <h2>JavaScript</h2>
+                    <p>작은 기능부터 DOM, API, 모듈 분리까지 확장합니다.</p>
+                </section>
+                </div>
+            </section>
+
+            <section class="meal-plan-section" aria-labelledby="meal-plan-title">
+                <header class="class-section-heading meal-plan-heading">
+                    <div><p>GWANGJU CAMPUS CAFETERIA</p><h2 id="meal-plan-title">7월 주간 식단표</h2></div>
+                </header>
+
+                <div class="meal-week-tabs" role="tablist" aria-label="식단 주차 선택">
+                    <button type="button" role="tab" id="meal-tab-1" aria-selected="true" aria-controls="meal-week-1" data-meal-week="meal-week-1"><strong>1주차</strong><span>07.13 — 07.17</span></button>
+                    <button type="button" role="tab" id="meal-tab-2" aria-selected="false" aria-controls="meal-week-2" data-meal-week="meal-week-2" tabindex="-1"><strong>2주차</strong><span>07.20 — 07.24</span></button>
+                    <button type="button" role="tab" id="meal-tab-3" aria-selected="false" aria-controls="meal-week-3" data-meal-week="meal-week-3" tabindex="-1"><strong>3주차</strong><span>07.27 — 07.31</span></button>
+                </div>
+
+                <div class="meal-week-panel" id="meal-week-1" role="tabpanel" aria-labelledby="meal-tab-1">
+                    <article class="meal-day-card"><header><time datetime="2026-07-13">07.13</time><span>월요일</span></header><h3>파채불고기</h3><p>흑미밥 · 황태미역국</p><div><small>건새우볶음</small><small>깻순겉절이</small><small>석박지</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-14">07.14</time><span>화요일</span></header><h3>토마토스파게티</h3><p>백미밥 · 옥수수스프</p><div><small>돈육찹스테이크</small><small>망고양상추샐러드</small><small>배추김치</small></div></article>
+                    <article class="meal-day-card meal-special"><header><time datetime="2026-07-15">07.15</time><span>수요일</span><b>초복</b></header><h3>닭다리 닭죽</h3><p>메밀전병 · 수박</p><div><small>아삭이고추무침</small><small>쌈배추겉절이</small><small>열무김치</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-16">07.16</time><span>목요일</span></header><h3>어니언돈까스</h3><p>백미밥 · 참치김치찌개</p><div><small>돈나물초무침</small><small>자반볶음</small><small>깍두기</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-17">07.17</time><span>금요일</span></header><h3>잔치국수·김치전</h3><p>흑미밥 · 브로콜리두부무침</p><div><small>과일사라다</small><small>열무김치</small></div></article>
+                </div>
+
+                <div class="meal-week-panel" id="meal-week-2" role="tabpanel" aria-labelledby="meal-tab-2" hidden>
+                    <article class="meal-day-card"><header><time datetime="2026-07-20">07.20</time><span>월요일</span></header><h3>함박스테이크</h3><p>백미밥 · 게살스프</p><div><small>마카로니샐러드</small><small>양념깻잎지</small><small>배추김치</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-21">07.21</time><span>화요일</span></header><h3>제육볶음</h3><p>백미밥 · 김치콩나물국</p><div><small>양배추쌈·강된장</small><small>파래자반무침</small><small>배추김치</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-22">07.22</time><span>수요일</span></header><h3>닭감자조림</h3><p>백미밥 · 소고기미역국</p><div><small>지리멸치볶음</small><small>연두부·양념장</small><small>배추김치</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-23">07.23</time><span>목요일</span></header><h3>야채비빔밥</h3><p>얼갈이된장국 · 소고기약고추장</p><div><small>도시락김</small><small>핫도그·케첩</small><small>열무김치</small></div></article>
+                    <article class="meal-day-card meal-special"><header><time datetime="2026-07-24">07.24</time><span>금요일</span><b>중복</b></header><h3>삼계탕</h3><p>새우살애호박전</p><div><small>콩나물무침</small><small>무생채</small><small>갓김치</small></div></article>
+                </div>
+
+                <div class="meal-week-panel" id="meal-week-3" role="tabpanel" aria-labelledby="meal-tab-3" hidden>
+                    <article class="meal-day-card"><header><time datetime="2026-07-27">07.27</time><span>월요일</span></header><h3>바싹불고기</h3><p>백미밥 · 유부우동국</p><div><small>새송이볶음</small><small>깻잎순겉절이</small><small>배추김치</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-28">07.28</time><span>화요일</span></header><h3>아비꼬카레라이스</h3><p>백미밥 · 배추된장국</p><div><small>파채돈까스</small><small>오이피클</small><small>배추김치</small></div></article>
+                    <article class="meal-day-card meal-special"><header><time datetime="2026-07-29">07.29</time><span>수요일</span><b>특식</b></header><h3>보쌈수육</h3><p>백미밥 · 근대된장국</p><div><small>쌈채소·쌈장</small><small>들기름막국수</small><small>보쌈김치</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-30">07.30</time><span>목요일</span></header><h3>바지락칼국수</h3><p>백미밥 · 고등어구이</p><div><small>청포묵김가루무침</small><small>무생채</small><small>갓김치</small></div></article>
+                    <article class="meal-day-card"><header><time datetime="2026-07-31">07.31</time><span>금요일</span></header><h3>베이컨크림파스타</h3><p>흑미밥 · 파송송계란국</p><div><small>함박스테이크</small><small>오이피클</small><small>배추김치</small></div></article>
+                </div>
+            </section>
+
+            <section class="curriculum-section" aria-labelledby="curriculum-title">
+                <header class="class-section-heading curriculum-heading">
+                    <div><p>FULL CURRICULUM</p><h2 id="curriculum-title">SKALA 전체 교육 과정</h2></div>
+                    <span>교육생 공유 시간표 기준 · 세부 일정은 운영 상황에 따라 변경될 수 있습니다.</span>
+                </header>
+
+                <ol class="curriculum-timeline">
+                    <li class="curriculum-stage" style="--stage-color: var(--slack-yellow);">
+                        <div class="stage-marker"><span>01</span><i></i></div>
+                        <article>
+                            <header><div><p>FOUNDATION</p><h3>웹·데이터·AI 기초</h3></div><time datetime="2026-07-14">07.14 — 07.31 · 1–3주차</time></header>
+                            <p>개발 협업의 기본기를 익히고 웹과 데이터 분석, 생성형 AI의 핵심 개념을 학습합니다.</p>
+                            <div class="course-tags"><span>팀빌딩 · Git</span><span>HTML · CSS · JavaScript</span><span>Python 데이터 분석</span><span>스마트 데이터</span><span>기초통계</span><span>Prompt · Context</span><span>LLM · Transformer</span></div>
+                        </article>
+                    </li>
+                    <li class="curriculum-stage" style="--stage-color: var(--slack-blue);">
+                        <div class="stage-marker"><span>02</span><i></i></div>
+                        <article>
+                            <header><div><p>APPLICATION</p><h3>서비스 개발·클라우드</h3></div><time datetime="2026-08-03">08.03 — 09.04 · 4–8주차</time></header>
+                            <p>프론트엔드와 백엔드를 연결하고 컨테이너 환경에 배포하는 서비스 개발 흐름을 경험합니다.</p>
+                            <div class="course-tags"><span>Java · Spring Boot · REST API</span><span>Agile · MSA</span><span>sLLM · Fine-tuning</span><span>Feature Engineering</span><span>Vue.js</span><span>Container</span><span>Kubernetes</span><span>Spring AI</span><span>웹 서비스 Mini Project</span><span>취업 특강</span></div>
+                        </article>
+                    </li>
+                    <li class="curriculum-stage" style="--stage-color: var(--slack-green);">
+                        <div class="stage-marker"><span>03</span><i></i></div>
+                        <article>
+                            <header><div><p>AI ENGINEERING</p><h3>AI 서비스·에이전트 구축</h3></div><time datetime="2026-09-07">09.07 — 10.23 · 9–15주차</time></header>
+                            <p>모델 개발부터 생성형 AI 애플리케이션, 서빙과 운영까지 AI 서비스의 전 과정을 확장합니다.</p>
+                            <div class="course-tags"><span>Machine Learning · Deep Learning</span><span>모델 최적화</span><span>Kubernetes 심화</span><span>LangChain</span><span>RAG Pipeline</span><span>데이터 분석 Mini Project</span><span>Model Serving · AIOps</span><span>AI Agent</span><span>Vector DB</span><span>Agent Capstone</span><span>AI 서비스 Mini Project</span><span>DevOps</span></div>
+                        </article>
+                    </li>
+                    <li class="curriculum-stage" style="--stage-color: var(--slack-red);">
+                        <div class="stage-marker"><span>04</span><i></i></div>
+                        <article>
+                            <header><div><p>FINAL PROJECT</p><h3>팀 프로젝트·성과 발표</h3></div><time datetime="2026-10-26">10.26 — 12.11 · 16–22주차</time></header>
+                            <p>AI 프로젝트 방법론을 바탕으로 팀 서비스를 기획·개발하고 점검과 최종 평가를 거쳐 과정을 마무리합니다.</p>
+                            <div class="course-tags"><span>DevOps</span><span>AI 프로젝트 방법론</span><span>팀 프로젝트</span><span>중간 점검 · 11.12</span><span>최종평가 예선 · 12.10</span><span>최종평가·수료식 · 12.11</span></div>
+                        </article>
+                    </li>
+                </ol>
+
+                <div class="curriculum-milestones" aria-label="교육 과정 주요 일정">
+                    <div><span>08.17</span><strong>광복절 대체휴일</strong></div>
+                    <div><span>09.23–09.27</span><strong>자체 휴강·추석 연휴</strong></div>
+                    <div><span>10.05 · 10.09</span><strong>공휴일</strong></div>
+                    <div><span>12.11</span><strong>최종평가 본선·수료식</strong></div>
+                </div>
+            </section>
+
+            
+<footer>
+    <p><strong>SKALA-FRONT 강의 과제</strong> · HTML, CSS, JavaScript 실습 결과물</p>
+    <p>© 2026 허진녕 · <a href="mailto:wlssud132@gmail.com">wlssud132@gmail.com</a></p>
+</footer>
+
+        </div>
+    </div>
+</div>
+<script src="../script/scheduleTooltip.js"></script>
+<script src="../script/mealPlan.js"></script>
+</body>
+</html>
