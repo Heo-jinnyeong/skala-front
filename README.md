@@ -23,7 +23,6 @@ HTML, CSS, JavaScript 강의자료의 지정 과제를 하나의 프로젝트로
 
 5. 루트의 `index.html`을 열고 **Open with Live Server**를 실행합니다.
 
-6. ES Module과 Open-Meteo 날씨 API 때문에 파일을 더블 클릭하는 방식보다 Live Server 실행을 권장합니다.
 
 
 ## 폴더 구조
